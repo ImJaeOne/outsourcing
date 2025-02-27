@@ -19,6 +19,7 @@ const Button = ({
       'text-white bg-deep-mint hover:bg-darkmint hover:border-darkmint border-transparent',
     outline:
       'text-deep-mint bg-white border-2 border-deep-mint hover:bg-darkmint hover:border-darkmint hover:text-white',
+    disabled: 'bg-light-gray text-deep-gray cursor-not-allowed',
   };
   return (
     <button
